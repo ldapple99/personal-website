@@ -1,0 +1,37 @@
+/* Laura1 scheme */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* TEST TERROCOTTA */
+  --color-neutral-50: 253, 245, 243;
+  --color-neutral-100: 251, 234, 229;
+  --color-neutral-200: 249, 216, 207;
+  --color-neutral-300: 244, 189, 173;
+  --color-neutral-400: 236, 150, 125;
+  --color-neutral-500: 226, 125, 96;
+  --color-neutral-600: 204, 87, 54;
+  --color-neutral-700: 171, 71, 42;
+  --color-neutral-800: 142, 61, 38;
+  --color-neutral-900: 118, 56, 38;
+  /* Slate */
+  --color-primary-50: 226, 125, 96;
+  --color-primary-100: 241, 245, 249;
+  --color-primary-200: 226, 232, 240;
+  --color-primary-300: 203, 213, 225;
+  --color-primary-400: 148, 163, 184;
+  --color-primary-500: 100, 116, 139;
+  --color-primary-600: 71, 85, 105;
+  --color-primary-700: 51, 65, 85;
+  --color-primary-800: 30, 41, 59;
+  --color-primary-900: 15, 23, 42;
+  /* Gray */
+  --color-secondary-50: 232, 168, 124;
+  --color-secondary-100: 243, 244, 246;
+  --color-secondary-200: 229, 231, 235;
+  --color-secondary-300: 209, 213, 219;
+  --color-secondary-400: 156, 163, 175;
+  --color-secondary-500: 107, 114, 128;
+  --color-secondary-600: 75, 85, 99;
+  --color-secondary-700: 55, 65, 81;
+  --color-secondary-800: 31, 41, 55;
+  --color-secondary-900: 17, 24, 39;
+}
