@@ -17,9 +17,19 @@
         />
       {{ end }}
     {{ end }}
-    <h1 class="text-4xl font-extrabold">
-      {{ .Site.Author.name | default .Site.Title }}
+    <!-- A root element for TypeIt to target. -->
+    <h1 id="myElement" class="text-4xl font-extrabold">
+      <!--{{ .Site.Author.name | default .Site.Title }}-->
     </h1>
+    <!-- The script itself, loaded AFTER your root element. -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+      new TypeIt("#myElement", {
+        strings: "Hi, I'm Laura 👋",
+        cursor: false
+      }).go();
+    </script>
+    
     {{ with .Site.Author.headline }}
       <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
         {{ . | markdownify | emojify }}

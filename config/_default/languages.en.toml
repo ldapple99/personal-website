@@ -5,7 +5,7 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Congo"
+title = "Laura Turner"
 # logo = "img/logo.jpg"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
@@ -14,10 +14,10 @@ dateFormat = "2 January 2006"
 
 [author]
   name = "Laura Turner"
-  image = "squid.jpg"
-  # headline = "I'm only human"
+  image = "LTurner.jpeg"
+  headline = "Student at the University of Colorado, Boulder. Graduating in May 2023 :mortar_board:"
   # bio = "A little bit about you"
-  # links = [
+   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -30,15 +30,15 @@ dateFormat = "2 January 2006"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-  #   { github = "https://github.com/username" },
+     { github = "https://github.com/ldapple99" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
-  #   { instagram = "https://instagram.com/username" },
+     { instagram = "https://www.instagram.com/ldapple99/" },
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+     { linkedin = "https://www.linkedin.com/in/lauraelizabethturner/" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
@@ -59,4 +59,4 @@ dateFormat = "2 January 2006"
   #   { twitter = "https://twitter.com/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
-  # ]
+   ]

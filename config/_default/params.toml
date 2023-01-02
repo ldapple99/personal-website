@@ -22,7 +22,7 @@ enableCodeCopy = false
 
 [footer]
   showCopyright = true
-  showThemeAttribution = false
+  showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
