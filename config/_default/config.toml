@@ -11,5 +11,8 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
+[permalinks]
+  posts = '/blog/:year/:month/:title/'
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
