@@ -5,7 +5,7 @@ draft: false
 thumbnail: /images/uploads/netlifylogo.png
 rating: 5
 categories: ["Lifestyle"]
-tags: ["University", "Gaming", "Piano", "Cooking", "Reading", "Education"]
+tags: ["University", "Gaming", "Piano", "Cooking", "Reading", "Education", "Photography"]
 ---
 #### Hello!
 
