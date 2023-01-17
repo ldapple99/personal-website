@@ -5,10 +5,6 @@ draft: false
 thumbnail: /images/uploads/netlifylogo.png
 rating: -5
 ---
-P﻿lease feel free to contact me using any of the methods below if you have any questions/comments! I'd love to help in any way possible. :grinning:
-
-![]()
-
 #### Hello!
 
 My name is *Laura* and this is my very first blog post! :tada:
