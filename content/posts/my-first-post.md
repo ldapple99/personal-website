@@ -3,7 +3,6 @@ title: Hello! Here's a bit about me...
 date: 2022-12-27T21:42:05-07:00
 draft: false
 thumbnail: /images/uploads/netlifylogo.png
-rating: 5
 categories: ["Lifestyle"]
 tags: ["University", "Gaming", "Piano", "Cooking", "Reading", "Education", "Photography"]
 ---
