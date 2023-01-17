@@ -10,8 +10,6 @@ showReadingTime: false
 showEdit: false
 ---
 
-# Resume
-
-Here is my [Resume](https://www.lauraeturner.com/LauraTurner_resume2023.pdf)
+##Here is my [Resume](https://www.lauraeturner.com/LauraTurner_resume2023.pdf)
 
 <!-- Will put more user-friendly resume soon -->
