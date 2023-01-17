@@ -6,6 +6,5 @@ thumbnail: /images/uploads/img_0762.jpeg
 categories: Test
 tags:
   - NetlifyCMS
-  - Testing
 ---
 H﻿ello, this is a test of using categories and tags with Netlify CMS. :tada: *Hopefully* it works!
