@@ -15,7 +15,7 @@ I﻿ am a student who's attending the beautiful University of Colorado, Boulder.
 
 
 
-![Here is a photo I took of the view of the rainy & beautiful CU Boulder campus at the top of the Gamow Physics Department Tower](/images/uploads/img_7244.jpeg "CU Boulder Canpus at top of Gamow Physics Tower")
+![Here is a photo I took of the view of the rainy & beautiful CU Boulder campus at the top of the Gamow Physics Department Tower](/images/uploads/img_7244.jpeg "Here is a photo I took of the view of the rainy & beautiful CU Boulder campus at the top of the Gamow Physics Department Tower")
 
 A﻿s an accomplished pianist, I love spending my free time learning how to play a wide variety of music. Whether it be a somber movie soundtrack piece or a jolly holiday song to sing along to with the family, piano playing has always been a peaceful experience for me that brings me much joy. I also quite enjoy cooking, reading (pretty much anything, I love all genres! :laughing:), and playing video games (*Legend of Zelda: Majora's Mask* being my absolute favorite :smile: The storyline is so interesting!).
 
@@ -25,7 +25,7 @@ I﻿ also really love photography and traveling; being able to capture an experi
 
 ﻿
 
-![View from Brooklyn Bridge, NYC](/images/uploads/img_0762.jpeg "Brooklyn Bridge, NYC")
+![View from Brooklyn Bridge, NYC](/images/uploads/img_0762.jpeg "View from Brooklyn Bridge, NYC")
 
 
 
