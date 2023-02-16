@@ -6,12 +6,6 @@ thumbnail: /images/uploads/netlifylogo.png
 categories: Confusion of the Month
 tags:
   - Esoteric PLs
-  - Esolang
-  - Malbolge
-  - Chicken (PL)
-  - Chef (PL)
-  - Piet
-  - Intercal
 ---
 ## ***Happy January everyone!*** :snowflake:
 
