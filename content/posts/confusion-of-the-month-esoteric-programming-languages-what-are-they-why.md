@@ -3,7 +3,7 @@ layout: blog
 title: "Confusion of the Month: Esoteric Programming Languages - What are they & why?"
 date: 2023-01-18T01:37:36.351Z
 thumbnail: /images/uploads/netlifylogo.png
-categories: Esoteric PL
+categories: Confusion of the Month
 tags:
   - Esoteric PLs
   - Esolang
