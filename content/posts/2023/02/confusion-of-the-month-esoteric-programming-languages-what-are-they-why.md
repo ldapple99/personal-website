@@ -96,7 +96,7 @@ chicken chicken chicken chicken chicken chicken
 
 Would you like to take the CHICKEN programming language and put it in the oven for a nice Roasted Chicken? :cook: Then I think you'd like to learn more about the Chef programming language which was designed by David Morgan-Mar in 2002!
 
-Chef is a esolang that structures programs (or should I say *recipes*) to follow the same formatting as usual cooking recipes with a Recipe Title, Cooking Time, Ingredients List, and even Oven Times. 
+Chef is a esolang that structures programs (or should I say *recipes*) to follow the same formatting as usual cooking recipes with a Recipe Title, Cooking Time, Ingredients List (that hold different data values), and even Oven Temperatures. This is all followed by a Methods Section that hosts a plethora of instructions such as `Take *ingredient* from refrigerator.` (reads the numeric value from STDIN of the ingredient) or `Serve with *auxiliary-recipe*.` (which involks the *sous-chef* to follow another *cooking recipe*). 
 
 Here is the recipe for the *Hello World Cake with Chocolate Sauce* written by David Morgan-Mar to follow for a nice dessert to your roasted chicken. :chocolate_bar::cake:
 
