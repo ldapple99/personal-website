@@ -13,21 +13,21 @@ tags:
   - Piet
   - Intercal
 ---
-### ***Happy January everyone!*** :snowflake:
+## ***Happy January everyone!*** :snowflake:
 
 I thought I'd start off my first ***Confusion of the Month*** - a monthly column that will discuss a topic that I came across that initially bewildered me and how I made sense of it - with a fun subject that I had recently became aware of. This subject being ***Esoteric Programming Languages*** *(aka Esolangs)* and why I am more than glad that I never had an assignment programming in one during my time as an undergraduate student (*so far* I should say, still have 3 months to go till I graduate :eyes:).
 
-What exactly is an "Esoteric Programming Language"?
+### What exactly is an "Esoteric Programming Language"
 
-#### Intercal
+### Intercal
 
-#### Chicken
+### Chicken
 
-#### Chef
+### Chef
 
-#### Piet
+### Piet
 
-#### BrainF\*\*k
+### BrainF\*\*k
 
 Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: < > + - . , \[ and ] 
 
@@ -37,7 +37,7 @@ Many complain about the language's commands ususally have no hints as to what th
 
 [The above code snippet prints out your standard "Hello World" with a new-line following, in Brainf&&k]
 
-#### Malbolge
+### Malbolge
 
 Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name.  
 
