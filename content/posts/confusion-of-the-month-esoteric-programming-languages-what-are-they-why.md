@@ -17,13 +17,13 @@ tags:
 
 I thought I'd start off my first ***Confusion of the Month*** - a monthly column that will discuss a topic that I came across that initially bewildered me and how I made sense of it - with a fun subject that I had recently became aware of. This subject being ***Esoteric Programming Languages*** *(aka Esolangs)* and why I am more than glad that I never had an assignment programming in one during my time as an undergraduate student (*so far* I should say, still have 3 months to go till I graduate :eyes:).
 
-### What exactly is an "Esoteric Programming Language"
+### What exactly is an "Esoteric Programming Language" :thinking:
 
-
+Before diving into some of my favourite esoteric programming languages (*aka esolangs*), I think it will be worthwhile to discuss what it actually means for a programming langauge to be considered *esoteric*. Usually esoteric programming languages are written as parodies to the natures of widely-used programming languages (such as C#, FORTRAN). Although they can also be composed to test the boundries of programming language design, to create art, or even to generate a hacking interface to another language. Usually (and often thankfully), esolangs are not designed for serious programming. :relieved:
 
 ### INTERCAL
 
-Designed by two Princeton University students, Don Woods and James M. Lyon, in 1972, INTERCAL (*aka the Compiler Language With No Pronounceable Acronym*) was originally designed as a satire on the structures of the programming languages that were there at the time. Most of the design choices in composing INTERCAl was chosen such to make the programmer's life as unpleasing as possible when using it by including statements such as `READ OUT` , `IGNORE`, or `FORGET`. I think one of the most interesting design choices in INTERCAL is the `PLEASE` modifier, which if not used enough in a program causes the rejection by the compiler with an error stating that the program is considered "*insufficiently polite*". *Meanwhile* if the `PLEASE` modifier is used too often, then that is grounds for another compiler rejection with an error of the program is considered "*excessively polite*".
+Designed by two Princeton University students, Don Woods and James M. Lyon, in 1972, INTERCAL (*aka the Compiler Language With No Pronounceable Acronym*) was originally designed as a satire on the structures of the programming languages that were there at the time (mainly FORTRAN). Most of the design choices in composing INTERCAl was chosen such to make the programmer's life as unpleasing as possible when using it by including statements such as `READ OUT` , `IGNORE`, or `FORGET`. I think one of the most interesting design choices in INTERCAL is the `PLEASE` modifier, which if not used enough in a program causes the rejection by the compiler with an error stating that the program is considered "*insufficiently polite*". *Meanwhile* if the `PLEASE` modifier is used too often, then that is grounds for another compiler rejection with an error of the program is considered "*excessively polite*".
 
 Here is the standard "Hello World" program written in INTERCAL:
 ~~~
