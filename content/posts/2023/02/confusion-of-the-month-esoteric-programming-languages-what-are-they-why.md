@@ -23,7 +23,8 @@ I thought I'd start off my first ***Confusion of the Month*** - a monthly column
 
 ### CHICKEN
 
-Do you only know one word and it is 'chicken'? Well, you're in luck! Created by Torbjörn Söderstedt, CHICKEN is a PL with only two language commands: `chicken` and `\n`
+Do you only know one word? And it is 'chicken'? 
+Well, you're in luck! Created by Torbjörn Söderstedt, CHICKEN is a PL with only two language commands: `chicken` and `\n`
 
 Basically, the number of `chicken` you write before a new line corresponds to a different instruction to the interpretor. So for example, if you type 4 chickens before a new line then you called a *rooster* instruction which does your standard *multiply* command. 7 chickens, and you get a *peck* instruction which corresponds to the standard *store* command. 
 
@@ -96,7 +97,7 @@ chicken chicken chicken chicken chicken chicken
 
 Would you like to take the CHICKEN programming language and put it in the oven for a nice Roasted Chicken? :cook: Then I think you'd like to learn more about the Chef programming language which was designed by David Morgan-Mar in 2002!
 
-Chef is a esolang that structures programs (or should I say *recipes*) to follow the same formatting as usual cooking recipes with a Recipe Title, Cooking Time, Ingredients List (that hold different data values), and even Oven Temperatures. This is all followed by a Methods Section that hosts a plethora of instructions such as `Take *ingredient* from refrigerator.` (reads the numeric value from STDIN of the ingredient) or `Serve with *auxiliary-recipe*.` (which involks the *sous-chef* to follow another *cooking recipe*). 
+Chef is a esolang that structures programs (or should I say *recipes*) to follow the same formatting as usual cooking recipes with a Recipe Title, Cooking Time, Ingredients List (that hold different data values), and even Oven Temperatures. This is all followed by a Methods Section that hosts a plethora of instructions such as `Take *ingredient* from refrigerator.` (reads the numeric value from STDIN of the ingredient) or `Serve with *auxiliary-recipe* .` (which involks the *sous-chef* to follow another *cooking recipe*). 
 
 Here is the recipe for the *Hello World Cake with Chocolate Sauce* written by David Morgan-Mar to follow for a nice dessert to your roasted chicken. :chocolate_bar::cake:
 
@@ -169,6 +170,10 @@ Refrigerate for 1 hour.
 ~~~
 
 ### Piet
+
+Not much of a Chef? That's okay! How about art? :artist:
+
+Much like Chef, Piet (named after the famed artist, Piet Mondrian) is a Esolang that is also written by David Morgan-Mar that is considered Turing-complete (same computational class as a Turing Machine). Although this time you'll be *painting* and *abstract painting* from 20 various *colours* you can choose from, 18 of them having various *hues*. Using a direction pointer (DP) that can be one of the 4 cardinal directions (up, down, left, right), the Piet program runs until it terminates. Commands are run depending on the change in lightness and hue of the colour that the DP is currently on. 
 
 ### BrainF\*\*k
 
