@@ -175,7 +175,7 @@ Not much of a Chef? That's okay! How about art? :artist:
 
 Much like Chef, Piet (named after the famed artist, Piet Mondrian) is a Esolang that is also written by David Morgan-Mar that is considered Turing-complete (same computational class as a Turing Machine). Although this time you'll be *painting* and *abstract painting* from 20 various *colours* you can choose from, 18 of them having various *hues*. Using a direction pointer (DP) that can be one of the 4 cardinal directions (up, down, left, right), the Piet program runs until it terminates. Commands are run depending on the change in lightness and hue of the colour that the DP is currently on. 
 
-![Here is one of many implementations of the standard "Hello World" program in Piet](/images/uploads/piet_hello_world.gif "Here is one of many implementations of the standard "Hello World" program in Piet")
+![Here is one of many implementations of the standard "Hello World" program in Piet](../../../../static/images/uploads/piet_hello_world.gif "Here is one of many implementations of the standard "Hello World" program in Piet")
 
 ### BrainF\*\*k
 
