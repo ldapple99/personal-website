@@ -19,7 +19,31 @@ I thought I'd start off my first ***Confusion of the Month*** - a monthly column
 
 ### What exactly is an "Esoteric Programming Language"
 
-### Intercal
+
+
+### INTERCAL
+
+Designed by two Princeton University students, Don Woods and James M. Lyon, in 1972, INTERCAL (*aka the Compiler Language With No Pronounceable Acronym*) was originally designed as a satire on the structures of the programming languages that were there at the time. Most of the design choices in composing INTERCAl was chosen such to make the programmer's life as unpleasing as possible when using it by including statements such as `READ OUT` , `IGNORE`, or `FORGET`. I think one of the most interesting design choices in INTERCAL is the `PLEASE` modifier, which if not used enough in a program causes the rejection by the compiler with an error stating that the program is considered "*insufficiently polite*". *Meanwhile* if the `PLEASE` modifier is used too often, then that is grounds for another compiler rejection with an error of the program is considered "*excessively polite*".
+
+Here is the standard "Hello World" program written in INTERCAL:
+~~~
+DO ,1 <- #13
+PLEASE DO ,1 SUB #1 <- #238
+DO ,1 SUB #2 <- #108
+DO ,1 SUB #3 <- #112
+DO ,1 SUB #4 <- #0
+DO ,1 SUB #5 <- #64
+DO ,1 SUB #6 <- #194
+DO ,1 SUB #7 <- #48
+PLEASE DO ,1 SUB #8 <- #22
+DO ,1 SUB #9 <- #248
+DO ,1 SUB #10 <- #168
+DO ,1 SUB #11 <- #24
+DO ,1 SUB #12 <- #16
+DO ,1 SUB #13 <- #162
+PLEASE READ OUT ,1
+PLEASE GIVE UP
+~~~
 
 ### CHICKEN
 
@@ -184,7 +208,7 @@ Much like Chef, Piet (named after the famed artist, Piet Mondrian) is an esolang
 
 Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: < > + - . , [ and ]
 
-Many complain about the language's commands usually have no hints as to what they mean, making it quite challenging to decipher. For example , the command `,` means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands < and > increment or decrement the data pointer to a differing cell of memory and the commands `+` and `-` both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually referred to as a parody and is never truly used outside of amusement. 
+Many complain about the language's commands usually have no hints as to what they mean, making it quite challenging to decipher. For example , the command `,` means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands `<` and `>` increment or decrement the data pointer to a differing cell of memory and the commands `+` and `-` both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually referred to as a parody and is never truly used outside of amusement. 
 
 ```
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
@@ -202,7 +226,7 @@ Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programmin
 
 when c is the code pointer. Although, after each instruction is executed the instruction gets encrypted using what is called *Crazy Operation* such that it will not tell the interpreter the same thing the next time it is called. 
 
-Although it took **2 years** to find a way to do so with the help of the Lisp program that used a local beam search, below is the standard "Hello World" program in Malbolge.
+Although it took **2 years** to find a way to do so, with the help of the Lisp program that used a local beam search, below is the standard "Hello World" program in Malbolge.
 
 ```
 (=<`#9]~6ZY327Uv4-QsqpMn&+Ij"'E%e{Ab~w=_:]Kw%o44Uqp0/Q?xNvL:`H%c#DD2^WV>gY;dts76qKJImZkj
