@@ -37,11 +37,21 @@ Many complain about the language's commands ususally have no hints as to what th
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 ~~~
 
-The above code snippet prints out your standard "Hello World" with a new-line following, in Brainf&&k
+The above code snippet prints out your standard "Hello World" following with a new-line, in Brainf&&k
 
 ### Malbolge
 
-Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name.  
+Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name. In 1998, Ben Olmstead purposely created this programming language to be nearly impossible to design. For starters, Malbolge has only three registers - a (accumulator), c (code pointer), and d (data pointer)- and works in for a *terary* VM. Much like Brainf&&k, Malbolge also has only 8 language commands, although with a *twist*.  Malgbolge determines which instruction to tell the interpretor what to do by determining the value of:
+~~~
+([c] + c) % 94
+~~~
+
+when c is the code pointer. Although, after each instruction is executed the instruction get encrypted using what is called *Crazy Operation* such that it will not tell the interpretor the same thing the next time it is called. 
+
+Although it took **2 years** to find a way to do so with the help of the Lisp program that used a local beam search, below is the standard "Hello World" program in Malbolge.
+~~~
+(=<`#9]~6ZY327Uv4-QsqpMn&+Ij"'E%e{Ab~w=_:]Kw%o44Uqp0/Q?xNvL:`H%c#DD2^WV>gY;dts76qKJImZkj
+~~~
 
 ### Conclusion
 
