@@ -106,7 +106,7 @@ Here is the recipe for the *Hello World Cake with Chocolate Sauce* written by Da
 Hello World Cake with Chocolate sauce.
 
 This prints hello world, while being tastier than Hello World Souffle. The main
-chef makes a " world!" cake, which he puts in the baking dish. When he gets the
+chef makes a "Hello world!" cake, which he puts in the baking dish. When he gets the
 sous chef to make the "Hello" chocolate sauce, it gets put into the baking dish
 and then the whole thing is printed when he refrigerates the sauce. When
 actually cooking, I'm interpreting the chocolate sauce baking dish to be
@@ -182,9 +182,9 @@ Much like Chef, Piet (named after the famed artist, Piet Mondrian) is an esolang
 
 ### BrainF\*\*k
 
-Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: < > + - . , \[ and ] 
+Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: `<` `>` `+` `-` `.` `,` `[` and `]`
 
-Many complain about the language's commands usually have no hints as to what they mean, making it quite challenging to decipher. For example , the command , means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands < and > increment or decrement the data pointer to a differing cell of memory and the commands + and - both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually referred to as a parody and is never truly used outside of amusement. 
+Many complain about the language's commands usually have no hints as to what they mean, making it quite challenging to decipher. For example , the command `,` means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands < and > increment or decrement the data pointer to a differing cell of memory and the commands `+` and `-` both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually referred to as a parody and is never truly used outside of amusement. 
 
 ```
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
@@ -194,7 +194,7 @@ The above code snippet prints out your standard "Hello World" following with a n
 
 ### Malbolge
 
-Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name. In 1998, Ben Olmstead purposely created this programming language to be nearly impossible to design. For starters, Malbolge has only three registers - a (accumulator), c (code pointer), and d (data pointer)- and works in for a *ternary* VM. Much like Brainf&&k, Malbolge also has only 8 language commands, although with a *twist*.  Malgbolge determines which instruction to tell the interpreter what to do by determining the value of:
+Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name. In 1998, Ben Olmstead purposely created this programming language to be nearly impossible to design. For starters, Malbolge has only three registers - `a` (accumulator), `c` (code pointer), and `d` (data pointer)- and works in for a *ternary* VM. Much like Brainf&&k, Malbolge also has only 8 language commands, although with a *twist*.  Malgbolge determines which instruction to tell the interpreter what to do by determining the value of:
 
 ```
 ([c] + c) % 94
