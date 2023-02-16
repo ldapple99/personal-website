@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "**Confusion of the Month:** Esoteric Programming Languages - What are they & *why?*"
+title: "Confusion of the Month: Esoteric Programming Languages - What are they & why?"
 date: 2023-01-17T04:24:10.995Z
 thumbnail: /images/uploads/img_0762.jpeg
 categories: Esoteric PL
