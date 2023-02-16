@@ -33,9 +33,13 @@ Now, no blog on Esoteric Programming Languages would be credible without mention
 
 Many complain about the language's commands ususally have no hints as to what they mean, making it quite challenging to decipher. For example , the command , means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands < and > increment or decrement the data pointer to a differing cell of memory and the commands + and - both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually refered to as a parody and is never truly used outside of amusement. 
 
-![Here is a photo I took of the view of the rainy & beautiful CU Boulder campus at the top of the Gamow Physics Department Tower](/images/uploads/img_7244.jpeg "Here is a photo I took of the view of the rainy & beautiful CU Boulder campus at the top of the Gamow Physics Department Tower")
+```++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.```
+
+[The above code snippet prints out your standard "Hello World" with a new-line following, in Brainf&&k]
 
 #### Malbolge
+
+Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name.  
 
 ### Conclusion
 
