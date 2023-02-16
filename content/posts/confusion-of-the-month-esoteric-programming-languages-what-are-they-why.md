@@ -182,7 +182,7 @@ Much like Chef, Piet (named after the famed artist, Piet Mondrian) is an esolang
 
 ### BrainF\*\*k
 
-Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: `<` `>` `+` `-` `.` `,` `[` and `]`
+Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: < > + - . , [ and ]
 
 Many complain about the language's commands usually have no hints as to what they mean, making it quite challenging to decipher. For example , the command `,` means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands < and > increment or decrement the data pointer to a differing cell of memory and the commands `+` and `-` both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually referred to as a parody and is never truly used outside of amusement. 
 
