@@ -26,10 +26,11 @@ I thought I'd start off my first ***Confusion of the Month*** - a monthly column
 Do you only know one word? And it is 'chicken'? 
 Well, you're in luck! Created by Torbjörn Söderstedt, CHICKEN is a PL with only two language commands: `chicken` and `\n`
 
-Basically, the number of `chicken` you write before a new line corresponds to a different instruction to the interpretor. So for example, if you type 4 chickens before a new line then you called a *rooster* instruction which does your standard *multiply* command. 7 chickens, and you get a *peck* instruction which corresponds to the standard *store* command. 
+Basically, the number of `chicken` you write before a new line corresponds to a different instruction to the interpreter. So for example, if you type 4 chickens before a new line then you called a *rooster* instruction which does your standard *multiply* command. 7 chickens and you get a *peck* instruction which corresponds to the standard *store* command. 
 
 Here is your standard "Hello World" program in CHICKEN:
-~~~
+
+```
 chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
 chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
 chicken chicken chicken chicken
@@ -89,7 +90,7 @@ chicken chicken chicken
 chicken chicken chicken chicken chicken chicken chicken chicken
 chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
 chicken chicken chicken chicken chicken chicken
-~~~
+```
 
 ...I don't think I need to say much else. :chicken:
 
@@ -97,11 +98,11 @@ chicken chicken chicken chicken chicken chicken
 
 Would you like to take the CHICKEN programming language and put it in the oven for a nice Roasted Chicken? :cook: Then I think you'd like to learn more about the Chef programming language which was designed by David Morgan-Mar in 2002!
 
-Chef is a esolang that structures programs (or should I say *recipes*) to follow the same formatting as usual cooking recipes with a Recipe Title, Cooking Time, Ingredients List (that hold different data values), and even Oven Temperatures. This is all followed by a Methods Section that hosts a plethora of instructions such as `Take *ingredient* from refrigerator.` (reads the numeric value from STDIN of the ingredient) or `Serve with *auxiliary-recipe* .` (which involks the *sous-chef* to follow another *cooking recipe*). 
+Chef is an esolang that structures programs (or should I say *recipes*) to follow the same formatting as usual cooking recipes with a Recipe Title, Cooking Time, Ingredients List (that hold different data values), and even Oven Temperatures. This is all followed by a Methods Section that hosts a plethora of instructions such as `Take *ingredient* from refrigerator.` (reads the numeric value from STDIN of the ingredient) or `Serve with *auxiliary-recipe* .` (which involks the *sous chef* to follow another *cooking recipe*). 
 
-Here is the recipe for the *Hello World Cake with Chocolate Sauce* written by David Morgan-Mar to follow for a nice dessert to your roasted chicken. :chocolate_bar::cake:
+Here is the recipe for the *Hello World Cake with Chocolate Sauce* written by David Morgan-Mar to follow for a nice dessert for your roasted chicken. :chocolate_bar::cake:
 
-~~~
+```
 Hello World Cake with Chocolate sauce.
 
 This prints hello world, while being tastier than Hello World Souffle. The main
@@ -167,41 +168,45 @@ Put milk chocolate into the mixing bowl.
 Liquefy contents of the mixing bowl.
 Pour contents of the mixing bowl into the baking dish.
 Refrigerate for 1 hour.
-~~~
+```
 
 ### Piet
 
 Not much of a Chef? That's okay! How about art? :artist:
 
-Much like Chef, Piet (named after the famed artist, Piet Mondrian) is a Esolang that is also written by David Morgan-Mar that is considered Turing-complete (same computational class as a Turing Machine). Although this time you'll be *painting* and *abstract painting* from 20 various *colours* you can choose from, 18 of them having various *hues*. Using a direction pointer (DP) that can be one of the 4 cardinal directions (up, down, left, right), the Piet program runs until it terminates. Commands are run depending on the change in lightness and hue of the colour that the DP is currently on. 
+Much like Chef, Piet (named after the famed artist, Piet Mondrian) is an esolang that is also written by David Morgan-Mar that is considered Turing-complete (same computational class as a Turing Machine). Although this time you'll be *painting* an *abstract painting* from 20 various *colours* you can choose from, 18 of them having various *hues*. Using a direction pointer (DP) that can be one of the 4 cardinal directions (up, down, left, right), the Piet program runs until it terminates. Commands are run depending on the change in lightness and hue of the colour that the DP is currently on. 
 
-![Here is one of many implementations of the standard "Hello World" program in Piet](https://esolangs.org/w/images/6/63/Piet_Hello_World.gif "Here is one of many implementations of the standard "Hello World" program in Piet")
+![Here is one of many implementations of the standard "Hello World" program in Piet](/images/uploads/piet_hello_world.gif "Hello World in Piet")
+
+
 
 ### BrainF\*\*k
 
 Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: < > + - . , \[ and ] 
 
-Many complain about the language's commands ususally have no hints as to what they mean, making it quite challenging to decipher. For example , the command , means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands < and > increment or decrement the data pointer to a differing cell of memory and the commands + and - both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually refered to as a parody and is never truly used outside of amusement. 
+Many complain about the language's commands usually have no hints as to what they mean, making it quite challenging to decipher. For example , the command , means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands < and > increment or decrement the data pointer to a differing cell of memory and the commands + and - both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually referred to as a parody and is never truly used outside of amusement. 
 
-~~~
+```
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
-~~~
+```
 
 The above code snippet prints out your standard "Hello World" following with a new-line, in Brainf&&k
 
 ### Malbolge
 
-Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name. In 1998, Ben Olmstead purposely created this programming language to be nearly impossible to design. For starters, Malbolge has only three registers - a (accumulator), c (code pointer), and d (data pointer)- and works in for a *ternary* VM. Much like Brainf&&k, Malbolge also has only 8 language commands, although with a *twist*.  Malgbolge determines which instruction to tell the interpretor what to do by determining the value of:
-~~~
-([c] + c) % 94
-~~~
+Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name. In 1998, Ben Olmstead purposely created this programming language to be nearly impossible to design. For starters, Malbolge has only three registers - a (accumulator), c (code pointer), and d (data pointer)- and works in for a *ternary* VM. Much like Brainf&&k, Malbolge also has only 8 language commands, although with a *twist*.  Malgbolge determines which instruction to tell the interpreter what to do by determining the value of:
 
-when c is the code pointer. Although, after each instruction is executed the instruction get encrypted using what is called *Crazy Operation* such that it will not tell the interpretor the same thing the next time it is called. 
+```
+([c] + c) % 94
+```
+
+when c is the code pointer. Although, after each instruction is executed the instruction gets encrypted using what is called *Crazy Operation* such that it will not tell the interpreter the same thing the next time it is called. 
 
 Although it took **2 years** to find a way to do so with the help of the Lisp program that used a local beam search, below is the standard "Hello World" program in Malbolge.
-~~~
+
+```
 (=<`#9]~6ZY327Uv4-QsqpMn&+Ij"'E%e{Ab~w=_:]Kw%o44Uqp0/Q?xNvL:`H%c#DD2^WV>gY;dts76qKJImZkj
-~~~
+```
 
 ### Conclusion
 
