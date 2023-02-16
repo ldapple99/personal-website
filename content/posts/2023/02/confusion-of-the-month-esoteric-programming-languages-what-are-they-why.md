@@ -21,7 +21,76 @@ I thought I'd start off my first ***Confusion of the Month*** - a monthly column
 
 ### Intercal
 
-### Chicken
+### CHICKEN
+
+Do you only know one word and it is 'chicken'? Well, you're in luck! Created by Torbjörn Söderstedt, CHICKEN is a PL with only two language commands: ``chicken`` and ``\n``
+
+Basically, the number of ``chicken`` you write before a new line corresponds to a different instruction to the interpretor. So for example, if you type 4 chickens before a new line then you called a *rooster* instruction which does your standard *multiply* command. 7 chickens, and you get a *peck* instruction which corresponds to the standard *store* command. 
+
+Here is your standard "Hello World" program in CHICKEN:
+~~~
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken
+chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken
+
+chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken
+
+chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken
+chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken
+
+chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken
+
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
+chicken chicken chicken chicken chicken chicken
+~~~
+
+...I don't think I need to say much else. :chicken:
 
 ### Chef
 
@@ -41,7 +110,7 @@ The above code snippet prints out your standard "Hello World" following with a n
 
 ### Malbolge
 
-Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name. In 1998, Ben Olmstead purposely created this programming language to be nearly impossible to design. For starters, Malbolge has only three registers - a (accumulator), c (code pointer), and d (data pointer)- and works in for a *terary* VM. Much like Brainf&&k, Malbolge also has only 8 language commands, although with a *twist*.  Malgbolge determines which instruction to tell the interpretor what to do by determining the value of:
+Named after the 8th Circle of Hell in Dante Alighieri's Inferno, this programming language truly lives up to the name. In 1998, Ben Olmstead purposely created this programming language to be nearly impossible to design. For starters, Malbolge has only three registers - a (accumulator), c (code pointer), and d (data pointer)- and works in for a *ternary* VM. Much like Brainf&&k, Malbolge also has only 8 language commands, although with a *twist*.  Malgbolge determines which instruction to tell the interpretor what to do by determining the value of:
 ~~~
 ([c] + c) % 94
 ~~~
@@ -55,4 +124,4 @@ Although it took **2 years** to find a way to do so with the help of the Lisp pr
 
 ### Conclusion
 
-So all-in-all, most Esoteric Programming Languages are there to just to poke fun at the very nature of various programming languages and are there for amusement. Although after learning about them, I am now able to think "At least I didn't have to program this in *Chicken*" after finishing up any challenges in my future as a programmer. :satisfied: :chicken:
+So all-in-all, most Esoteric Programming Languages are there to just to poke fun at the very nature of various programming languages and are there for amusement. Although after learning about them, I am now able to think "At least I didn't have to program this in *CHICKEN*" after finishing up any challenges in my future as a programmer. :satisfied: :chicken:
