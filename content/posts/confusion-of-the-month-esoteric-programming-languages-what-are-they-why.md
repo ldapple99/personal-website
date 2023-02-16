@@ -19,11 +19,11 @@ I thought I'd start off my first ***Confusion of the Month*** - a monthly column
 
 ### What exactly is an "Esoteric Programming Language"? :thinking:
 
-Before diving into some of my favourite esoteric programming languages, I think it will be worthwhile to discuss what it actually means for a programming langauge to be considered *esoteric*. Usually esoteric programming languages are written as parodies to the natures of widely-used programming languages (such as C#, FORTRAN). Although they can also be composed to test the boundries of programming language design, to create art, or even to generate a hacking interface to another language. Usually (and often thankfully), esolangs are not designed for serious programming. :relieved:
+Before diving into some of my favourite esoteric programming languages, I think it will be worthwhile to discuss what it actually means for a programming language to be considered *esoteric*. Usually, esoteric programming languages are written as parodies to the natures of widely-used programming languages (such as C#, FORTRAN). Although they can also be composed to test the boundaries of programming language design, to create art, or even to generate a hacking interface to another language. Usually (and often thankfully), esolangs are not designed for serious programming. :relieved:
 
 ### INTERCAL
 
-Designed by two Princeton University students, Don Woods and James M. Lyon, in 1972, INTERCAL (*aka the Compiler Language With No Pronounceable Acronym*) was originally designed as a satire on the structures of the programming languages that were there at the time (mainly FORTRAN). Most of the design choices in composing INTERCAl was chosen such to make the programmer's life as unpleasing as possible when using it by including statements such as `READ OUT` , `IGNORE`, or `FORGET`. I think one of the most interesting design choices in INTERCAL is the `PLEASE` modifier, which if not used enough in a program causes the rejection by the compiler with an error stating that the program is considered "*insufficiently polite*". *Meanwhile* if the `PLEASE` modifier is used too often, then that is grounds for another compiler rejection with an error of the program is considered "*excessively polite*".
+Designed by two Princeton University students, Don Woods and James M. Lyon, in 1972, INTERCAL (*aka the Compiler Language With No Pronounceable Acronym*) was originally designed as a satire on the structures of the programming languages that were there at the time (mainly FORTRAN). Most of the design choices in composing INTERCAL was chosen such to make the programmer's life as unpleasing as possible when using it by including statements such as `READ OUT` , `IGNORE`, or `FORGET`. I think one of the most interesting design choices in INTERCAL is the `PLEASE` modifier, which if not used enough in a program causes the rejection by the compiler with an error stating that the program is considered "*insufficiently polite*". *Meanwhile,* if the `PLEASE` modifier is used too often, then that is grounds for another compiler rejection with an error of the program is considered "*excessively polite*".
 
 Here is the standard "Hello World" program written in INTERCAL:
 
@@ -201,11 +201,11 @@ Not much of a Chef? That's okay! How about art? :artist:
 
 Much like Chef, Piet (named after the famed artist, Piet Mondrian) is an esolang that is also written by David Morgan-Mar that is considered Turing-complete (same computational class as a Turing Machine). Although this time you'll be *painting* an *abstract painting* from 20 various *colours* you can choose from, 18 of them having various *hues*. Using a direction pointer (DP) that can be one of the 4 cardinal directions (up, down, left, right), the Piet program runs until it terminates. Commands are run depending on the change in lightness and hue of the colour that the DP is currently on. 
 
-![Here is one of many implementations of the standard "Hello World" program in Piet](/images/uploads/piet_hello_world.gif "Here is one of many implementations of the standard \\"Hello World\\" program in Piet")
+![Here is one of many implementations of the standard "Hello World" program in Piet](/images/uploads/piet_hello_world.gif "Here is one of many implementations of the standard \\\"Hello World\\\" program in Piet")
 
 ### BrainF\*\*k
 
-Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is a Esoteric PL that consists of only 8 language commands: < > + - . , \[ and ]
+Now, no blog on Esoteric Programming Languages would be credible without mentioning BrainF&&k. Composed in 1993 by Urban Müller, BrainF&&k is an Esoteric PL that consists of only 8 language commands: < > + - . , \[ and ]
 
 Many complain about the language's commands usually have no hints as to what they mean, making it quite challenging to decipher. For example , the command `,` means to accept one byte of the input and store it in the data pointer. This along with the nature of the programming needing long sequences of characters to create the simplest of operations (the language is made such that the commands `<` and `>` increment or decrement the data pointer to a differing cell of memory and the commands `+` and `-` both increase and decrease the byte stored at that cell), creates a plethora of reasoning as to why the PL is usually referred to as a parody and is never truly used outside of amusement. 
 
