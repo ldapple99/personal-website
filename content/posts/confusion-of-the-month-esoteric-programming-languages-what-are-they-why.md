@@ -17,7 +17,7 @@ tags:
 
 I thought I'd start off my first ***Confusion of the Month*** - a monthly column that will discuss a topic that I came across that initially bewildered me and how I made sense of it - with a fun subject that I had recently became aware of. This subject being ***Esoteric Programming Languages*** *(aka Esolangs)* and why I am more than glad that I never had an assignment programming in one during my time as an undergraduate student (*so far* I should say, still have 3 months to go till I graduate :eyes:).
 
-### What exactly is an "Esoteric Programming Language" :thinking:
+### What exactly is an "Esoteric Programming Language"? :thinking:
 
 Before diving into some of my favourite esoteric programming languages (*aka esolangs*), I think it will be worthwhile to discuss what it actually means for a programming langauge to be considered *esoteric*. Usually esoteric programming languages are written as parodies to the natures of widely-used programming languages (such as C#, FORTRAN). Although they can also be composed to test the boundries of programming language design, to create art, or even to generate a hacking interface to another language. Usually (and often thankfully), esolangs are not designed for serious programming. :relieved:
 
