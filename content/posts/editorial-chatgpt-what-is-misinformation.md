@@ -7,7 +7,7 @@ categories: Editorials
 tags:
   - LLMs
 ---
-***I originally wrote this editorial for a writing course I am currently taking, but I enjoyed the process of writing it so much that I though I'd go ahead and post it on my website!***
+***I originally wrote this editorial for a writing course I am currently taking, but I enjoyed the process of writing it so much that I thought I'd go ahead and post it on my website!***
 
 ### ChatGPT, What is misinformation?
 
