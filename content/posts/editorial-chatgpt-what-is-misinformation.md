@@ -7,7 +7,7 @@ categories: Editorials
 tags:
   - LLMs
 ---
-*EDIT (13th March 2023): Currently celebrating that this editorial got me the highest marks for this assignement in the class* :tada::grin:
+***EDIT (13th March 2023):*** *Currently celebrating that this editorial got me the highest marks for this assignement in the class* :tada::grin:
 
 ***I originally wrote this editorial for a writing course I am currently taking, but I enjoyed the process of writing it so much that I thought I'd go ahead and post it on my website!***
 
