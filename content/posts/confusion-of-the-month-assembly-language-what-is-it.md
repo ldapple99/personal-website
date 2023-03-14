@@ -7,7 +7,7 @@ categories: Confusion of the Month
 tags:
   - Assembly
 ---
-**Hello & Happy February Everyone!** :snowflake:
+## **Hello & Happy February everyone!** :snowflake:
 
 In my Computer Systems course, this month has been dedicated towards learning and understanding lower-level Assembly Language (specifically x86-64). Although it initially confused me, as I started learning more and more about assembly I realised all of the wonderful benefits it can bring. In the Computer Systems course I am currently in, we used assembly paired with GDB (General GNU Project Debugger) to determine and debug simple programs in C. And although assembly is generally not used to directly debug programs, being able to grasp what assembly is and gain the the knowledge on how to use it can provide a plethora of benefits, including but not limited to:
 - better understanding how programs often work at lower-levels
@@ -24,7 +24,7 @@ Now, I think I should start clearing up something that *I* was initially confuse
 
 - **x86-64 Assembly Language (x64 or AMD64)**: is the 64 bit version of the x86/IA32 version mentioned above. This is the language for processors that is common in most computers (3) (4)
 
-After clearing up that little confusion, I would've ideally gone into what each differnt type of instruction we covered in class, such as the jmp (jump), mov (move), and lea (load effective address). If I had, this would turn into more of a chapter in a book than a meer blog post. **But** I can most definitally give a brief cover of some of the more major ones! :smile:
+After clearing up that little confusion, I would've ideally dug deep into what each different type of instruction much like how they were covered in class, such as the jmp (jump), mov (move), and lea (load effective address). If I had, this would turn into more of a chapter in a book than a meer blog post. **But** I can most definitally give a brief cover of some of the more major ones! :smile:
 
 - **jmp (Jump)**: jmp 'jumps' to a new line in the instruction stream, it is often occompanied by a cmp (compare | conditional) that determines if the jump occurs. (4) I like to think of it as little teleportations you see in video games (as you continue down your pathway you will be entering this castle, *but* you'll need 3 stars to jump to this painting to a new level - *any Mario 64 fans out there?* :european_castle:) (5)
 
