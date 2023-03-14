@@ -32,7 +32,7 @@ After clearing up that little confusion, I would've ideally gone into what each 
 
 - **lea (Load Effective Address)**: Although very simular to mov, lea copies the values of the source itself to the second argument. (So in the case, imagine the character providing the friend with a *recipe* to make the same potion)
 
-- **test (Test)**: This instruction performs a logical AND between the two arguments and sets a flag value (*Zero Flag (ZF), Sign Flag (SF), or Parity Flag (PF)*) depending on the results. (*I'm racking my head to try and think of a fun video-game way to discribe this so if you, the reader, can think of one, please let me know!* :smile:)
+- **test (Test)**: This instruction performs a logical AND between the two arguments and sets a flag value (*Zero Flag (ZF), Sign Flag (SF), or Parity Flag (PF)*) depending on the results. (*I'm racking my head to try and think of a fun video-game way to describe this so if you, the reader, can think of one, please let me know!* :smile:)
 
 - **push and pop (Push & Pop)**: push and pop are instructions that relate to the *stack* (an array-like data structure that is used for temporary storage, I tend to think of stacks as a stack of books). The push instruction 'pushes' data *onto* the stack (so think of a character stacking another layer of ice cream on their ice cream cone). This therefore means that we need a way to remove information from the stack, and this is exactly what the pop instruction does! It 'pops' the information *off of* the stack! (So in this case, a character would scoop off the top-layer of ice cream :icecream:)
 
