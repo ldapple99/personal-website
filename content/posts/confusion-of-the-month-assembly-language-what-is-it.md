@@ -20,13 +20,13 @@ Now, I think I should start clearing up something that *I* was initially confuse
 
 - **Assembly Languages (ASM)**: is *any* programming language that is low-level and has a lot of simularity between it and the machine language that is processed by the Central Processing Unit (CPU) <sup>1</sup>
 
-- **x86 Assembly Languages**: assembly languages that generate x86 machine code for the x86 class of processors. Often these assembly languages use the Intel or AT&T syntax (*in my course, we used the AT&T syntax, but now I am interesting in learning more about it's differnces from the Intel syntax*) (2)
+- **x86 Assembly Languages**: assembly languages that generate x86 machine code for the x86 class of processors. Often these assembly languages use the Intel or AT&T syntax (*in my course, we used the AT&T syntax, but now I am interesting in learning more about it's differnces from the Intel syntax*) <sup>2</sup>
 
-- **x86-64 Assembly Language (x64 or AMD64)**: is the 64 bit version of the x86/IA32 version mentioned above. This is the language for processors that is common in most computers (3) (4)
+- **x86-64 Assembly Language (x64 or AMD64)**: is the 64 bit version of the x86/IA32 version mentioned above. This is the language for processors that is common in most computers <sup>3, 4</sup>
 
 After clearing up that little confusion, I would've ideally dug deep into what each different type of instruction much like how they were covered in class, such as the jmp (jump), mov (move), and lea (load effective address). If I had, this would turn into more of a chapter in a book than a meer blog post. **But** I can most definitally give a brief cover of some of the more major ones! :smile:
 
-- **jmp (Jump)**: jmp 'jumps' to a new line in the instruction stream, it is often occompanied by a cmp (compare | conditional) that determines if the jump occurs. (4) I like to think of it as little teleportations you see in video games (as you continue down your pathway you will be entering this castle, *but* you'll need 3 stars to jump to this painting to a new level - *any Mario 64 fans out there?* :european_castle:) (5)
+- **jmp (Jump)**: jmp 'jumps' to a new line in the instruction stream, it is often occompanied by a cmp (compare | conditional) that determines if the jump occurs. <sup>4</sup> I like to think of it as little teleportations you see in video games (as you continue down your pathway you will be entering this castle, *but* you'll need 3 stars to jump to this painting to a new level - *any Mario 64 fans out there?* :european_castle:) <sup>5</sup>
 
 - **mov (Move)**: mov 'moves' (*or I more think of it as copies*) over information from the first argument of the instruction over to the second. This is often used to transfer information from two registers. (Following the same video game theme: suppose a character wants to give their friend the same potion they currenly have, so they decide to cook up an identical potion and provide it to their friend) 
 
