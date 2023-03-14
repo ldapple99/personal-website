@@ -18,7 +18,7 @@ In my Computer Systems course, this month has been dedicated towards learning an
 
 Now, I think I should start clearing up something that *I* was initially confused on. What are the differences between Assembly Languages, x86 Assembly Languages, and the x86-64 Assembly Language? (*It's a lot to wrap my head around* :sweat_smile:):
 
-- **Assembly Languages (ASM)**: is *any* programming language that is low-level and has a lot of simularity between it and the machine language that is processed by the Central Processing Unit (CPU) (1)
+- **Assembly Languages (ASM)**: is *any* programming language that is low-level and has a lot of simularity between it and the machine language that is processed by the Central Processing Unit (CPU) <sup>1</sup>
 
 - **x86 Assembly Languages**: assembly languages that generate x86 machine code for the x86 class of processors. Often these assembly languages use the Intel or AT&T syntax (*in my course, we used the AT&T syntax, but now I am interesting in learning more about it's differnces from the Intel syntax*) (2)
 
